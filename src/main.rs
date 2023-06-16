@@ -1,6 +1,6 @@
-mod game;
+mod bfs;
 
-use game::{bfs_search, GameState};
+use bfs::{bfs_search, GameState};
 
 fn main() {
     let initial_state: GameState = [[1, 2, 0], [8, 4, 3], [7, 6, 5]]; // Initial state
